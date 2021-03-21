@@ -140,6 +140,97 @@ p {
 }
 
 
+/*===== Services =====*/
+
+.services {
+  background-color: #fff;
+}
+
+.section__inner {
+  padding: 100px 0;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  margin-bottom: 70px;
+}
+
+.section__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #555555;
+  text-transform: uppercase;
+
+  margin-bottom: 60px;
+}
+
+.section__title:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+
+  background-color: #555555;
+  position: relative;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+
+  margin: 0 auto;
+}
+
+.section__subtitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #555555;
+}
+
+.services__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__item {
+  width: 31%;
+  text-align: center;
+}
+
+.services__icon {
+  margin-bottom: 30px;
+}
+
+.services__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555555;
+
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.services__text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #555555;
+}
+
+
+
+
+
+
+
+
+
 
 
 

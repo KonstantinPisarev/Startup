@@ -38,6 +38,13 @@ p {
   padding-top: 40px;
 }
 
+.header.fixed {
+  height: 50px;
+  position: fixed;
+  background-color: rgba(192, 48, 28, .7);
+  padding-top: 10px;
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -672,7 +679,7 @@ p {
 .contact__content {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .contact__connection {

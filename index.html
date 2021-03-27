@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;700&family=Roboto:ital@1&display=swap" rel="stylesheet">
   <title>Startup</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -56,18 +57,18 @@
 
 
   <!-- Header -->
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
       <div class="header__inner">
         <div class="header__logo">Startup</div>
         <nav class="nav">
-          <a href="#" class="nav__link">Home</a>
-          <a href="#" class="nav__link">Services</a>
-          <a href="#" class="nav__link">About</a>
-          <a href="#" class="nav__link">Works</a>
-          <a href="#" class="nav__link">Blog</a>
-          <a href="#" class="nav__link">Clients</a>
-          <a href="#" class="nav__link">Contact</a>
+          <a href="#" class="nav__link" data-scroll="#intro">Home</a>
+          <a href="#" class="nav__link" data-scroll="#services">Services</a>
+          <a href="#" class="nav__link" data-scroll="#about">About</a>
+          <a href="#" class="nav__link" data-scroll="#works">Works</a>
+          <a href="#" class="nav__link" data-scroll="#blog">Blog</a>
+          <a href="#" class="nav__link" data-scroll="#clients">Clients</a>
+          <a href="#" class="nav__link" data-scroll="#contact">Contact</a>
         </nav>
       </div>  <!--/.header__inner-->
     </div>  <!--/.container-->
@@ -75,7 +76,7 @@
 
 
   <!-- Intro -->
-  <div class="intro">
+  <div class="intro" id="intro">
     <div class="intro__inner">
       <h1 class="intro__title">Welcome to STARTUP</h1>
       <div class="intro_text">Your Favourite Creative Agency Template</div>
@@ -85,7 +86,7 @@
 
 
   <!-- Services -->
-  <section class="services">
+  <section class="services" id="services">
     <div class="container">
       <div class="section__inner">
 
@@ -124,7 +125,7 @@
 
 
   <!-- About -->
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
       <div class="section__inner  section__inner--about">
         <div class="section__header">
@@ -273,7 +274,7 @@
 
   <!-- Works -->
 
-  <section class="works">
+  <section class="works" id="works">
     <div class="container">
       <div class="section__inner">
         <div class="section__header">
@@ -378,7 +379,7 @@
   </div>
 
   <!-- Blog -->
-  <section class="blog">
+  <section class="blog" id="blog">
     <div class="container">
       <div class="section__inner  section__inner--blog">
 
@@ -435,7 +436,7 @@
   </section>
 
   <!-- Clients -->
-  <div class="clients">
+  <div class="clients" id="clients">
     <div class="clients__inner">
       <div class="clients__header">
         <div class="clients__img"><img src="img/clients/clients-logo1.png" alt=""></div>
@@ -454,7 +455,7 @@
   </div>
 
   <!-- Contact -->
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="container">
       <div class="section__inner">
         <div class="section__header">
@@ -545,5 +546,8 @@
     </div>
   </footer>
 
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
